@@ -1,0 +1,140 @@
+body
+{
+	background-color: #333333;
+	padding: 5px;
+	margin:  5px;
+}
+table
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+.Header
+{	
+	color: #cccccc;
+	text-align: center;
+}
+input[type="text"]
+{
+	border-width: 0px;
+	border-radius: 3px;
+	height: 30px;
+	width: 300px;
+	background-color: #aaaaaa;
+	color: #111;
+	font-size: 2	0px;
+}
+#btn
+{
+	background-color: #adadad;
+	color:#313131;
+	display: block;
+	border-radius: 10px;
+	border-width: 0px;
+	height: 30px;
+	width: 150px;
+	font-weight: bolder;
+	font-size: 20px;
+	margin: auto;
+}
+td
+{
+	color: #dfdfdf;
+	font-size: 30px;
+}
+#det
+{
+	background-color: #505050;
+	width: 500px;
+	height: 240px;
+	margin: auto;
+	display: box;
+	border-radius: 4px;
+}
+#elements
+{
+	/*background-color: red;*/
+}
+#chkl
+{
+	background-color: #808080;
+	margin-right: 0px;
+	padding: 0px;	
+	/*float: left;*/
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	width: 250px;
+}
+#chkr
+{
+	background-color: #808080;	
+	margin-left: 0px;
+	padding: 0px;
+	/*float: right;*/
+	border-top-right-radius: 8px;
+	border-bottom-right-radius:8px;
+	width:50px;
+	text-align: center;
+}
+#chklh
+{
+	background-color: #202020;
+	color: #dfdfdf;
+	margin-right: 0px;
+	border-right-width: 20px;
+	border-right-color: red;
+	padding: 0px;	
+	/*float: left;*/
+	display: box;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#chkrh
+{
+	background-color: #202020;
+	color:#dfdfdf;
+	margin-left: 0px;
+	padding: 0px;
+	/*float: right;*/
+	display:box;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius:8px;
+}
+#text
+{
+	border-collapse: collapse;
+	border: none;
+}
+th
+{
+	color: #bdbdbd;
+	font-size: 30px;
+
+}
+li
+{
+	display: block;
+	background-color: #808080;
+	height: 30px;
+	width: 400px;
+	border-width: 0px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;	
+	font-size: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: auto;
+}
+#error
+{
+	color: #ff2222;
+	display: box;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

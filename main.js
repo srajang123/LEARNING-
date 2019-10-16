@@ -4,14 +4,15 @@ console.log(a);
 const but=document.querySelector('#btn');
 but.addEventListener('click',(e)=>{
     e.preventDefault();
-    a.style.backgroundColor="#707070";
-    setTimeout((c)=>a.style.backgroundColor="505050",2000);
+    a.style.backgroundColor="#1b254e";
+    setTimeout((c)=>a.style.backgroundColor="#161b30",1500);
     const d1=document.querySelector('#name').value;
     const d2=document.querySelector('#age').value;
     if(d1=="" || d2=="")
     {
-        document.querySelector('#error').innerHTML="<b>!!Fill All The Fields!!</b>";
-        setTimeout((c)=>document.querySelector('#error').innerHTML="",3000);
+        alert("!!fill all the fields!!");
+       // document.querySelector('#error').innerHTML="<b>!!Fill All The Fields!!</b>";
+        //setTimeout((c)=>document.querySelector('#error').innerHTML="",3000);
     }
     else
     {

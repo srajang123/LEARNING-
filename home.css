@@ -1,8 +1,14 @@
 body
 {
-	background-color: #333333;
+	background-color: #6a90c2;
 	padding: 5px;
 	margin:  5px;
+}
+h1{
+	font-size:60px;
+}
+h2{
+	font-size:40px;
 }
 table
 {
@@ -43,13 +49,16 @@ td
 	font-size: 30px;
 }
 #det
-{
-	background-color: #505050;
+{	
+	padding-top:25px;
+	background-color: #1b254e;
+	/*background-color: #161b30;*/
 	width: 500px;
 	height: 240px;
 	margin: auto;
 	display: box;
 	border-radius: 4px;
+
 }
 #elements
 {
@@ -57,23 +66,23 @@ td
 }
 #chkl
 {
-	background-color: #808080;
+	background-color: #2a1231b7;
 	margin-right: 0px;
-	padding: 0px;	
+	padding: 10px;	
 	/*float: left;*/
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
-	width: 250px;
+	width: 500px;
 }
 #chkr
 {
-	background-color: #808080;	
+	background-color: #5f2a2a;	
 	margin-left: 0px;
-	padding: 0px;
+	padding: 10px;
 	/*float: right;*/
 	border-top-right-radius: 8px;
 	border-bottom-right-radius:8px;
-	width:50px;
+	width:90px;
 	text-align: center;
 }
 #chklh
